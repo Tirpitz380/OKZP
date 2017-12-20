@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+
+	height: 100%;
+}
+html{
+	height: 100%;
+}
+
+#box{
+	width: 100%;
+	height: 100%;
+	background-color: brown;
+	position: relative;
+	background-image: url(../images/QQ图片20171219154211.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#top{
+	width: 30rem;
+	height: 0rem;
+	background-color: cornflowerblue;
+	overflow: hidden;
+	transition: all 0.1s;
+	position: relative;
+	z-index: 3;
+	
+}
+#top_2{
+	width: 30rem;
+	height: 0rem;
+	background-color: palegreen;
+	overflow: hidden;
+	transition: all 0.1s;
+	position: relative;
+	z-index: 3;
+	
+}
+#top_3{
+	width: 30rem;
+	height: 0rem;
+	background-color: plum;
+	overflow: hidden;
+	transition: all 0.1s;
+	position: relative;
+	z-index: 3;
+	
+}
+#czbtn{
+	width: 4rem;
+	height: 4rem;
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	z-index: 2;
+}
+#phb{
+	width: 4rem;
+	height: 4rem;
+	position: absolute;
+	left: 1rem;
+	top: 5rem;
+	z-index: 2;
+	
+}
+#qd{
+		width: 4rem;
+	height: 4rem;
+	position: absolute;
+	left: 1rem;
+	top: 10rem;
+	z-index: 2;
+}
+#czhs{
+	width: 4rem;
+	height: 4rem;
+	background-color: yellow;
+	display: inline-block;
+	position: absolute;
+	left: 13rem;
+	bottom: 1px;
+	margin-bottom: 1px;
+	z-index: 5;
+}
+#czhs_2{
+	width: 4rem;
+	height: 4rem;
+	background-color: yellow;
+	display: inline-block;
+	position: absolute;
+	left: 13rem;
+	bottom: 1px;
+	margin-bottom: 1px;
+	z-index: 5;
+}
+
+#czhs_3{
+	width: 4rem;
+	height: 4rem;
+	background-color: darkcyan;
+	display: inline-block;
+	position: absolute;
+	left: 13rem;
+	bottom: 1px;
+	margin-bottom: 1px;
+	z-index: 5;
+}
+#zhuanpan{
+
+width: 800px;
+height: 800px;
+border-radius: 50%;
+
+
+position: absolute;
+top: 10rem;
+left: 50%;
+margin-left: -400px;
+text-align: center;
+background: url(../images/qtdywzjl.png)no-repeat;
+background-size: 800px 800px;
+
+	
+}
+#zhizhen{
+
+width: 800px;
+height: 800px;
+border-radius: 50%;
+
+
+position: absolute;
+top: 10rem;
+left: 50%;
+margin-left: -400px;
+text-align: center;
+background: url(../images/指针.png)no-repeat;
+background-size: 800px 800px;
+
+	
+}
+
+#btn{
+	width: 300px;
+	height: 250px;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 5rem;
+	left: 50%;
+	margin-left: -150px;
+/*    background-image:url(../images/on.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;*/
+}
+#btni{
+	width: 300px;
+	height: 250px;
+	transition: all 1s;
+}
+
+#play_num{
+	width: 30rem;
+	height: 10rem;
+	position: absolute;
+	top: 1px;
+}
